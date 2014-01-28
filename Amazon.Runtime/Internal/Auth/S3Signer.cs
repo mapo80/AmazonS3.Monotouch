@@ -18,7 +18,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Globalization;
-using Amazon.EC2.Model;
+//using Amazon.EC2.Model;
 using Amazon.Util;
 using Amazon.S3;
 using Amazon.S3.Util;
