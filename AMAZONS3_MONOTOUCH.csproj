@@ -482,6 +482,5 @@
     <None Include="awssdk.dll.snk" />
     <None Include="endpoints.xml" />
     <None Include="ServiceClients.tt" />
-    <None Include="SupportServicesList.tt" />
   </ItemGroup>
 </Project>
