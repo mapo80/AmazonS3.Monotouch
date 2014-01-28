@@ -238,7 +238,7 @@ namespace Amazon.Runtime
         /// </summary>
         public EnvironmentAWSCredentials()
         {
-            NameValueCollection appConfig = ConfigurationManager.AppSettings;
+			NameValueCollection appConfig = null;//ConfigurationManager.AppSettings;
 
             var accessKey = appConfig[ACCESSKEY];
             var secretKey = appConfig[SECRETKEY];
