@@ -473,7 +473,6 @@
     <Compile Include="AWSClientFactory.cs" />
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="RegionEndpoint.cs" />
-    <Compile Include="ServiceClients.cs" />
     <Compile Include="AWSConfigs.cs" />
     <Compile Include="AWSConfigs.wp8.cs" />
   </ItemGroup>
@@ -481,6 +480,5 @@
     <None Include="AWSClientFactory.tt" />
     <None Include="awssdk.dll.snk" />
     <None Include="endpoints.xml" />
-    <None Include="ServiceClients.tt" />
   </ItemGroup>
 </Project>
