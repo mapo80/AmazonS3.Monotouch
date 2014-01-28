@@ -477,7 +477,6 @@
     <Compile Include="AWSConfigs.wp8.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="AWSClientFactory.tt" />
     <None Include="awssdk.dll.snk" />
     <None Include="endpoints.xml" />
   </ItemGroup>
