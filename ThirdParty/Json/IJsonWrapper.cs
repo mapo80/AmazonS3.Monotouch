@@ -14,8 +14,9 @@
 
 using System.Collections;
 using System.Collections.Specialized;
-using Amazon.MissingTypes;
-
+#if (WINRT || WP8)
+	using Amazon.MissingTypes;
+#endif
 
 namespace ThirdParty.Json.LitJson
 {
